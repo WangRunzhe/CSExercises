@@ -25,7 +25,7 @@ namespace CSExercises
                     else
                     {
                         Console.WriteLine("{0} is not a Armstrong number.", Armstrong);
-                        flag = false;
+                        flag = true;
                     }
                 }
                
