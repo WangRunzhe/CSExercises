@@ -7,7 +7,6 @@ namespace CSExercises
         public static void Main(string[] args)
         {
             double MinCharge = 2.40, NextPerKM=0.4,LastPerKM=0.5,Distance,Fare=0;
-            double check;
             Console.WriteLine("Please input the distance.");
             Distance = Convert.ToDouble(Console.ReadLine());
             Distance = Math.Round(Distance, 2);
